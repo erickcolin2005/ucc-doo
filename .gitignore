@@ -64,3 +64,6 @@ build/
 
 README.md
 5ed39b3 (Creación de proyecto base e inclusión del patrón Factory Method)
+
+.DS_Store
+084a91d (Modificación del archivo .gitignore)
