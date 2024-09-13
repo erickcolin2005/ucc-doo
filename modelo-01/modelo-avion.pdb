@@ -1646,9 +1646,9 @@ Shadow=0</a:DisplayPreferences>
 <c:Symbols>
 <o:ReferenceSymbol Id="o5">
 <a:CreationDate>1725675208</a:CreationDate>
-<a:ModificationDate>1725676637</a:ModificationDate>
-<a:Rect>((-16037,7622), (8613,9292))</a:Rect>
-<a:ListOfPoints>((8213,8247),(-15637,8247))</a:ListOfPoints>
+<a:ModificationDate>1725679322</a:ModificationDate>
+<a:Rect>((-16037,7622), (2913,9292))</a:Rect>
+<a:ListOfPoints>((2513,8247),(-15637,8247))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>1</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
@@ -1722,9 +1722,9 @@ LABL 0 Arial,8,N</a:FontList>
 </o:TableSymbol>
 <o:TableSymbol Id="o6">
 <a:CreationDate>1725673525</a:CreationDate>
-<a:ModificationDate>1725676640</a:ModificationDate>
+<a:ModificationDate>1725679322</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((8213,147), (35441,11149))</a:Rect>
+<a:Rect>((2513,747), (29741,11749))</a:Rect>
 <a:AutoAdjustToText>0</a:AutoAdjustToText>
 <a:LineColor>16512</a:LineColor>
 <a:FillColor>166354</a:FillColor>
