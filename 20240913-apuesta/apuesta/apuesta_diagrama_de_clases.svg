@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="52mm" xmlns="http://www.w3.org/2000/svg" height="40mm" version="1.1" viewBox="0 0 200 154" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <defs>
+      <linearGradient id="Gradient1" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#e9ca83"/>
+      </linearGradient>
+   </defs>
+   <rect x="2" y="2" fill="url(#Gradient1)" width="196" height="150" stroke="#800000" stroke-width="1"/>
+   <text x="100" y="13" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Loteria</text>
+   <line x1="2" x2="198" y1="19" y2="19" stroke="#800000" stroke-width="1"/>
+   <text x="7" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="7" y="42" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="7" y="54" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="18" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">id_loteria</text>
+   <text x="18" y="42" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">nombre_loteria</text>
+   <text x="18" y="54" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">fecha_sorteo</text>
+   <text x="98" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: int</text>
+   <text x="98" y="42" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: String</text>
+   <text x="98" y="54" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: Date</text>
+   <line x1="2" x2="198" y1="61" y2="61" stroke="#800000" stroke-width="1"/>
+   <text x="7" y="71" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="7" y="84" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="7" y="97" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="21" y="71" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">consultar_fecha_sorteo ()</text>
+   <text x="21" y="84" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">consultar_nombre ()</text>
+   <text x="21" y="97" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">validar_fecha_sorteo ()</text>
+   <text x="146" y="71" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: Date</text>
+   <text x="146" y="84" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: String</text>
+   <text x="146" y="97" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: boolean</text>
+</svg>
