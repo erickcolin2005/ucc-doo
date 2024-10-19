@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="179mm" xmlns="http://www.w3.org/2000/svg" height="150mm" version="1.1" viewBox="0 0 677 570" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <polyline fill="none" points="199,85 440,85" stroke="#800040" stroke-width="1"/>
+   <polyline fill="none" points="427,89 440,85 427,81" stroke="#800040" stroke-width="1"/>
+   <text x="227" y="81" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">0..1</text>
+   <text x="412" y="94" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">0..*</text>
+   <path d="M523,167 L523,226 A8,8 0 0,1 515,234 L202,234" fill="none" stroke="#800040" stroke-width="1"/>
+   <polyline fill="none" points="215,230 202,234 215,238" stroke="#800040" stroke-width="1"/>
+   <text x="535" y="193" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">0..1</text>
+   <text x="229" y="231" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">0..*</text>
+   <polyline fill="none" points="448,248 448,240" stroke="#800040" stroke-width="1"/>
+   <polyline fill="none" points="448,229 448,167" stroke="#800040" stroke-width="1"/>
+   <path d="M448,240 A5,5 0 0,0 454,234" fill="none" stroke="#800040" stroke-width="1"/>
+   <line x1="454" x2="454" y1="234" y2="234" stroke="#800040" stroke-width="1"/>
+   <path d="M454,234 A5,5 0 0,0 448,229" fill="none" stroke="#800040" stroke-width="1"/>
+   <polyline fill="none" points="444,234 448,248 452,234" stroke="#800040" stroke-width="1"/>
+   <text x="461" y="193" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">0..1</text>
+   <text x="436" y="228" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">0..*</text>
+   <path d="M203,481 L267,481 A8,8 0 0,0 275,473 L275,240" fill="none" stroke="#800040" stroke-width="1"/>
+   <path d="M275,229 L275,139 A8,8 0 0,1 283,131 L440,131" fill="none" stroke="#800040" stroke-width="1"/>
+   <path d="M275,240 A5,5 0 0,0 281,234" fill="none" stroke="#800040" stroke-width="1"/>
+   <line x1="281" x2="281" y1="234" y2="234" stroke="#800040" stroke-width="1"/>
+   <path d="M281,234 A5,5 0 0,0 275,229" fill="none" stroke="#800040" stroke-width="1"/>
+   <polyline fill="none" points="217,477 203,481 217,485" stroke="#800040" stroke-width="1"/>
+   <text x="411" y="140" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">0..1</text>
+   <text x="231" y="477" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">0..*</text>
+   <polyline fill="none" points="626,167 626,430" stroke="#800040" stroke-width="1"/>
+   <polyline fill="none" points="622,417 626,430 630,417" stroke="#800040" stroke-width="1"/>
+   <text x="639" y="193" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">0..1</text>
+   <text x="614" y="410" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">0..*</text>
+   <defs>
+      <linearGradient id="Gradient1" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#e9ca83"/>
+      </linearGradient>
+   </defs>
+   <rect x="2" y="12" fill="url(#Gradient1)" width="197" height="165" stroke="#800000" stroke-width="1"/>
+   <text x="100" y="23" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Usuario</text>
+   <line x1="2" x2="199" y1="29" y2="29" stroke="#800000" stroke-width="1"/>
+   <text x="7" y="39" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="7" y="52" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="7" y="65" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="7" y="78" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="18" y="39" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">id_usuario</text>
+   <text x="18" y="52" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">nombre_usuario</text>
+   <text x="18" y="65" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">email_usuario</text>
+   <text x="18" y="78" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">saldo_usuario</text>
+   <text x="102" y="39" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: int</text>
+   <text x="102" y="52" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: String</text>
+   <text x="102" y="65" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: String</text>
+   <text x="102" y="78" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: float</text>
+   <text x="144" y="39" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start"> = 0.0</text>
+   <text x="144" y="65" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start"> = &quot;&quot;</text>
+   <line x1="2" x2="199" y1="85" y2="85" stroke="#800000" stroke-width="1"/>
+   <text x="7" y="95" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="7" y="108" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="7" y="121" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="7" y="134" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="7" y="147" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="21" y="95" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">depositar_saldo ()</text>
+   <text x="21" y="108" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">retirar_saldo ()</text>
+   <text x="21" y="121" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">consultar_saldo ()</text>
+   <text x="21" y="134" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">verificar_email ()</text>
+   <text x="21" y="147" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">realizar__apuesta ()</text>
+   <text x="122" y="95" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: float</text>
+   <text x="122" y="108" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: float</text>
+   <text x="122" y="121" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: float</text>
+   <text x="122" y="134" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: boolean</text>
+   <text x="122" y="147" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: boolean</text>
+   <defs>
+      <linearGradient id="Gradient2" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#e9ca83"/>
+      </linearGradient>
+   </defs>
+   <rect x="440" y="2" fill="url(#Gradient2)" width="201" height="165" stroke="#800000" stroke-width="1"/>
+   <text x="540" y="13" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Apuesta</text>
+   <line x1="440" x2="641" y1="19" y2="19" stroke="#800000" stroke-width="1"/>
+   <text x="445" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="445" y="42" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="445" y="55" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="456" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">id_apuesta</text>
+   <text x="456" y="42" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">fecha_apuesta</text>
+   <text x="456" y="55" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">valor_apuesta</text>
+   <text x="533" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: int</text>
+   <text x="533" y="42" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: Date</text>
+   <text x="533" y="55" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: float</text>
+   <line x1="440" x2="641" y1="62" y2="62" stroke="#800000" stroke-width="1"/>
+   <text x="445" y="72" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="445" y="85" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="445" y="98" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="445" y="111" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="445" y="124" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="459" y="72" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">agregar_numero ()</text>
+   <text x="459" y="85" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">agregar_loteria ()</text>
+   <text x="459" y="98" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">calcular_valor_apuesta ()</text>
+   <text x="459" y="111" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">consultar_estado ()</text>
+   <text x="459" y="124" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">asignar_premio ()</text>
+   <text x="585" y="72" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: boolean</text>
+   <text x="585" y="85" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: boolean</text>
+   <text x="585" y="98" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: float</text>
+   <text x="585" y="111" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: String</text>
+   <text x="585" y="124" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: void</text>
+   <defs>
+      <linearGradient id="Gradient3" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#e9ca83"/>
+      </linearGradient>
+   </defs>
+   <rect x="10" y="209" fill="url(#Gradient3)" width="192" height="152" stroke="#800000" stroke-width="1"/>
+   <text x="106" y="220" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Numero</text>
+   <line x1="10" x2="202" y1="226" y2="226" stroke="#800000" stroke-width="1"/>
+   <text x="15" y="236" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="15" y="249" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="26" y="236" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">id_numero</text>
+   <text x="26" y="249" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">valor_numero</text>
+   <text x="99" y="236" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: int</text>
+   <text x="99" y="249" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: String</text>
+   <line x1="10" x2="202" y1="256" y2="256" stroke="#800000" stroke-width="1"/>
+   <text x="15" y="266" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="15" y="279" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="29" y="266" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">validar_numero ()</text>
+   <text x="29" y="279" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">consultar_valor ()</text>
+   <text x="120" y="266" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: boolean</text>
+   <text x="120" y="279" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: String</text>
+   <defs>
+      <linearGradient id="Gradient4" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#e9ca83"/>
+      </linearGradient>
+   </defs>
+   <rect x="336" y="248" fill="url(#Gradient4)" width="196" height="150" stroke="#800000" stroke-width="1"/>
+   <text x="434" y="259" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Loteria</text>
+   <line x1="336" x2="532" y1="264" y2="264" stroke="#800000" stroke-width="1"/>
+   <text x="341" y="274" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="341" y="287" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="341" y="300" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="341" y="313" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="352" y="274" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">id</text>
+   <text x="352" y="287" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">nombre</text>
+   <text x="352" y="300" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">hora_jujego</text>
+   <text x="352" y="313" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">estado</text>
+   <text x="417" y="274" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: varchar(10)</text>
+   <text x="417" y="287" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: varchar(10)</text>
+   <text x="417" y="300" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: time</text>
+   <text x="417" y="313" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: bool</text>
+   <line x1="336" x2="532" y1="320" y2="320" stroke="#800000" stroke-width="1"/>
+   <text x="341" y="330" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="341" y="343" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="341" y="356" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="355" y="330" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">consultar_fecha_sorteo ()</text>
+   <text x="355" y="343" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">consultar_nombre ()</text>
+   <text x="355" y="356" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">validar_fecha_sorteo ()</text>
+   <text x="480" y="330" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: Date</text>
+   <text x="480" y="343" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: String</text>
+   <text x="480" y="356" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: boolean</text>
+   <defs>
+      <linearGradient id="Gradient5" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#e9ca83"/>
+      </linearGradient>
+   </defs>
+   <rect x="12" y="414" fill="url(#Gradient5)" width="191" height="134" stroke="#800000" stroke-width="1"/>
+   <text x="107" y="425" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Premio</text>
+   <line x1="12" x2="203" y1="431" y2="431" stroke="#800000" stroke-width="1"/>
+   <text x="17" y="441" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="17" y="454" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="17" y="467" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="28" y="441" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">id_premio</text>
+   <text x="28" y="454" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">monto_premio</text>
+   <text x="28" y="467" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">fecha_pago</text>
+   <text x="105" y="441" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: int</text>
+   <text x="105" y="454" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: float</text>
+   <text x="105" y="467" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: Date</text>
+   <line x1="12" x2="203" y1="474" y2="474" stroke="#800000" stroke-width="1"/>
+   <text x="17" y="484" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="17" y="497" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="17" y="510" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="31" y="484" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">calcular_premio ()</text>
+   <text x="31" y="497" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">consultar_monto ()</text>
+   <text x="31" y="510" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">registrar_pago ()</text>
+   <text x="126" y="484" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: float</text>
+   <text x="126" y="497" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: float</text>
+   <text x="126" y="510" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: boolean</text>
+   <defs>
+      <linearGradient id="Gradient6" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#e9ca83"/>
+      </linearGradient>
+   </defs>
+   <rect x="477" y="430" fill="url(#Gradient6)" width="198" height="138" stroke="#800000" stroke-width="1"/>
+   <text x="576" y="441" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Estado de apuesta</text>
+   <line x1="477" x2="675" y1="447" y2="447" stroke="#800000" stroke-width="1"/>
+   <text x="481" y="457" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="481" y="470" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">-</text>
+   <text x="492" y="457" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">id_estado</text>
+   <text x="492" y="470" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">nombre_estado</text>
+   <text x="573" y="457" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: int</text>
+   <text x="573" y="470" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: String</text>
+   <line x1="477" x2="675" y1="477" y2="477" stroke="#800000" stroke-width="1"/>
+   <text x="481" y="487" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="481" y="500" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">+</text>
+   <text x="495" y="487" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">cambiar_estado ()</text>
+   <text x="495" y="500" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">consultar_estado ()</text>
+   <text x="591" y="487" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: String</text>
+   <text x="591" y="500" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">: String</text>
+</svg>
