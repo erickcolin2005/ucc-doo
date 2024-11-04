@@ -4,7 +4,7 @@
 
 <Workspace>
 	<Local Expanded="Yes">
-		<Model Expanded="Yes" ID="{E4AC1837-D39B-43BB-A500-CBB0C6493AEF}" Name="power_designer_transipiales" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="power_designer_transipiales.prj"/>
+		<Model Expanded="Yes" ID="{1766F648-3F41-45A3-A248-2F5883124F1B}" Name="Sistema_Alquiler_Vehiculos" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../../Sistema_Gestion_Hospital/Sistema_Alquiler_Vehiculos/Sistema_Alquiler_Vehiculos.prj"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
