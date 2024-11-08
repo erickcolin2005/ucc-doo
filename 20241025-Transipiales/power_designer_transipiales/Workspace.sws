@@ -4,7 +4,7 @@
 
 <Workspace>
 	<Local Expanded="Yes">
-		<Model Expanded="Yes" ID="{1766F648-3F41-45A3-A248-2F5883124F1B}" Name="Sistema_Alquiler_Vehiculos" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../../Sistema_Gestion_Hospital/Sistema_Alquiler_Vehiculos/Sistema_Alquiler_Vehiculos.prj"/>
+		<Model Expanded="Yes" ID="{764D2083-8704-49CF-B3C1-987288C13B02}" Name="Sistema_Gestion_Montaña_Rusa" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../../7112024-Sistema_Gestion_Montaña_Rusa/Sistema_Gestion_Montaña_Rusa_Power_Designer/Sistema_Gestion_Montaña_Rusa/Sistema_Gestion_Montaña_Rusa.prj"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
