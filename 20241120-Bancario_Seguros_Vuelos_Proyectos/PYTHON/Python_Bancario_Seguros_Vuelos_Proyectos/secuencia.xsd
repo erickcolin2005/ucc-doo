@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="DiagramaSecuencia">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Participantes" type="ParticipanteListType"/>
+                <xs:element name="Mensajes" type="MensajeListType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Participantes en el diagrama -->
+    <xs:complexType name="ParticipanteListType">
+        <xs:sequence>
+            <xs:element name="Participante" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Nombre" type="xs:string"/>
+                        <xs:element name="Tipo" type="xs:string"/> <!-- Actor, Objeto, etc. -->
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Mensajes intercambiados -->
+    <xs:complexType name="MensajeListType">
+        <xs:sequence>
+            <xs:element name="Mensaje" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Emisor" type="xs:string"/>
+                        <xs:element name="Receptor" type="xs:string"/>
+                        <xs:element name="Contenido" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

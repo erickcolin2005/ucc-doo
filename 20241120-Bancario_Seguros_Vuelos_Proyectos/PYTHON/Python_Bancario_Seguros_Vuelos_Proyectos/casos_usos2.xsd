@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="DiagramaCasosDeUso">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Actores" type="ActorListType"/>
+                <xs:element name="CasosDeUso" type="CasoDeUsoListType"/>
+                <xs:element name="Relaciones" type="RelacionListType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Definición de los actores -->
+    <xs:complexType name="ActorListType">
+        <xs:sequence>
+            <xs:element name="Actor" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Nombre" type="xs:string"/>
+                        <xs:element name="Rol" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Definición de los casos de uso -->
+    <xs:complexType name="CasoDeUsoListType">
+        <xs:sequence>
+            <xs:element name="CasoDeUso" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Nombre" type="xs:string"/>
+                        <xs:element name="Descripcion" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Definición de relaciones entre actores y casos de uso -->
+    <xs:complexType name="RelacionListType">
+        <xs:sequence>
+            <xs:element name="Relacion" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Actor" type="xs:string"/>
+                        <xs:element name="CasoDeUso" type="xs:string"/>
+                        <xs:element name="Tipo" type="xs:string"/> <!-- Asociacion, Inclusión, etc. -->
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
